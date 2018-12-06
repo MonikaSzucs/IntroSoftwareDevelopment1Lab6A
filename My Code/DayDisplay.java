@@ -81,20 +81,28 @@ public class DayDisplay
         switch(dayNumber.getValue()){
         case SUNDAY:
             return SUNDAY_STRING;
+                break;
         case MONDAY:
             return MONDAY_STRING;
+                break;
         case TUESDAY:
             return TUESDAY_STRING;
+                break;
         case WEDNESDAY:
             return WEDNESDAY_STRING;
+                break;
         case THURSDAY:
             return THURSDAY_STRING;
+                break;
         case FRIDAY:
             return FRIDAY_STRING;
+                break;
         case SATURDAY:
             return SATURDAY_STRING;
+                break;
         default:
             throw new IllegalArgumentException("WRONG");
+                break;
         }
     }
     
@@ -106,20 +114,28 @@ public class DayDisplay
         switch(dayNumber.getValue()){
         case SUNDAY:
             return MONDAY_STRING;
+                break;
         case MONDAY:
             return TUESDAY_STRING;
+                break;
         case TUESDAY:
             return WEDNESDAY_STRING;
+                break;
         case WEDNESDAY:
             return THURSDAY_STRING;
+                break;
         case THURSDAY:
             return FRIDAY_STRING;
+                break;
         case FRIDAY:
             return SATURDAY_STRING;
+                break;
         case SATURDAY:
             return SUNDAY_STRING;
+                break;
         default:
             throw new IllegalArgumentException("WRONG");
+                break;
         }
     }
     
